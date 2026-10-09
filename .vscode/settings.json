@@ -1,9 +1,14 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 1. Apagamos el formateador de VS Code para evitar conflictos
+  "editor.formatOnSave": false,
+
+  // 2. Dejamos que ESLint haga todo: evaluar la lógica Y aplicar Prettier
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
