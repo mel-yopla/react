@@ -17,22 +17,10 @@ import Course from "./components/Course";
 // const Ap = () => <Header />;
 const Ap = () => (
   <>
-    <Course
-      title="REACT"
-      description="Aprende React"
-    />
-    <Course
-      title="HTML"
-      description="Aprende Html"
-    />
-    <Course
-      title="CSS"
-      description="Aprende CSS"
-    />
-    <Course
-      title="JS"
-      description="Aprende JS"
-    />
+    <Course title="REACT" description="Aprende React" />
+    <Course title="HTML" description="Aprende Html" />
+    <Course title="CSS" description="Aprende CSS" />
+    <Course title="JS" description="Aprende JS" />
   </>
 );
 

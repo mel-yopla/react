@@ -2,10 +2,7 @@ import hero from "../assets/hero.png";
 const Header = () => {
   return (
     <header>
-      <img
-        src={hero}
-        alt="error "
-      />
+      <img src={hero} alt="error " />
       <nav>
         <ul>
           <li>Inicio</li>
