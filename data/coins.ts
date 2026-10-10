@@ -1,0 +1,86 @@
+import type CoinInterface from "../interfaces/CoinInterface";
+
+const coins: CoinInterface[] = [
+  {
+    order: 1,
+    name: "Bitcoin",
+    symbol: "BTC",
+    price: 65000,
+    priceChange: 2.5,
+    code: "bit",
+  },
+  {
+    order: 2,
+    name: "Ethereum",
+    symbol: "ETH",
+    price: 3500,
+    priceChange: -1.2,
+    code: "eth",
+  },
+  {
+    order: 3,
+    name: "Solana",
+    symbol: "SOL",
+    price: 140,
+    priceChange: 5.0,
+    code: "sol",
+  },
+  {
+    order: 4,
+    name: "Cardano",
+    symbol: "ADA",
+    price: 0.45,
+    priceChange: -0.5,
+    code: "card",
+  },
+  {
+    order: 5,
+    name: "Polkadot",
+    symbol: "DOT",
+    price: 7.2,
+    priceChange: 1.1,
+    code: "pol",
+  },
+  {
+    order: 6,
+    name: "Chainlink",
+    symbol: "LINK",
+    price: 18.5,
+    priceChange: 0.8,
+    code: "cha",
+  },
+  {
+    order: 7,
+    name: "Avalanche",
+    symbol: "AVAX",
+    price: 35.0,
+    priceChange: -2.0,
+    code: "ava",
+  },
+  {
+    order: 8,
+    name: "Polygon",
+    symbol: "MATIC",
+    price: 0.75,
+    priceChange: 0.3,
+    code: "poly",
+  },
+  {
+    order: 9,
+    name: "Litecoin",
+    symbol: "LTC",
+    price: 85.0,
+    priceChange: 1.5,
+    code: "lit",
+  },
+  {
+    order: 10,
+    name: "Ripple",
+    symbol: "XRP",
+    price: 0.6,
+    priceChange: -0.9,
+    code: "rip",
+  },
+];
+
+export default coins;
